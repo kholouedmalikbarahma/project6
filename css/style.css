@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+   
+    
+}
+nav img{
+    width: 18%;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+ 
+}
+nav ul li{
+    list-style: none;
+    padding: 40px 20px 0 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li:hover{
+    color: #FF3E81;
+    cursor: pointer;
+}
+nav button{
+   padding: 10px 35px;
+   border: none;
+   margin-top: 40px;
+   border-radius: 50px;
+ 
+   background-color: #3A88Ec;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+nav button:hover{
+    background-color:  #FF3E81; 
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 8rem;
+   
+    
+
+}
+.hero-section div{
+    width: 50%;
+    margin-top: 5rem;
+    height: min-content;
+}
+.hero-section div img{
+    width: 80%;
+}
+.hero-section span{
+    font-size: 2rem;
+ 
+   
+
+}
+.hero-section h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #303669;
+    margin: 12px 0;
+}
+.hero-section p{
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+.hero-section button{
+    padding: 10px 35px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 50px;
+  
+    color: white;
+    background-color:  #FF3E81;
+  
+}
+.hero-section button:hover{
+    background-color: #3A88Ec;
+    cursor: pointer;
+}
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    height: 60vh;
+  
+    
+ 
+}
+.first-section div{
+    width: 21%;
+    height: min-content;
+}
+.first-section img{
+    width: 40%;
+    margin-left: 20px;
+   
+}
+
+.first-section h2{
+    font-size: 1.6rem;
+    color: #303669;
+    margin: 12px 0;
+  
+}
+.first-section p{
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+.services-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+.services-section div{
+    width: 50%;
+}
+.services-section img{
+    width: 100%;
+   margin-top: 4rem;
+}
+.services-section span{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.services-section h2{
+    font-size: 3rem;
+    color: #303669;
+    font-weight: bold;
+    margin: 5px 0  15px 0;
+}
+.services-section p{
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+    color: #212529;
+}
+.services-section .btn{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.btn i{
+    font-weight: bold;
+   margin-left: 8rem;
+ 
+}
+.btn .pu{
+    margin-left: 12rem;
+}
+.btn button{
+    margin-top: 1.5rem;
+    width: 160%;
+    padding: 13px 0px 13px 20px;
+    text-align: left;
+    background-color: #3A88Ec;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+ 
+}
+.btn button:hover{
+    cursor: pointer;
+ 
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+}
+.services div{
+    width: 47%;
+}
+.services img{
+    width: 100%;
+   margin-top: 4rem;
+}
+.services span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.services h2{
+    font-size: 3rem;
+    color: #303669;
+    font-weight: bold;
+    margin: 5px 0  15px 0;
+}
+.services p{
+    font-size: 1.5rem;
+    margin-bottom: 1.1rem;
+    color: #212529;
+}
+.services button{
+    margin-top: 1.5rem;
+    padding: 15px 50px;
+    font-size: 1.2rem;
+    
+    text-align: left;
+    background-color:#FF3E81;
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+  
+    text-transform: capitalize;
+ 
+}
+.services button:hover{
+    cursor: pointer;
+    background-color: #3A88Ec;
+    
+ 
+}
+.pp{
+    text-align: center;
+    margin-top: 3rem;
+}
+.pp h2{
+    color: #303669;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.pp p{
+    font-size: 1.2rem;
+}
+.pricing-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 2rem;
+
+}
+.pricing-section div{
+    width: 25%;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.test1{
+    border: 1px white solid;
+    border-radius: 50px;
+    background-color: rgb(202, 240, 241);
+}
+.test1 h2{
+    font-size: 2.8rem;
+    color: #303669;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 1rem;
+}
+.test1 .sp{
+    color: #3A88Ec;
+    font-size: 1.2rem;
+   
+  
+}
+.test1 p{
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.test1 ul{
+    margin-top: 20px;
+}
+.test1 ul i{
+   
+    background-color: #3A88Ec;
+    border-radius: 50%;
+  padding: 4px;
+  font-size: .8rem;
+    color: #fff;
+   
+    
+   
+}
+ ul .ip{
+   margin-left: 7px;
+}
+ul .icon{
+    background-color: darkgray !important; 
+}
+
+.test1 ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+   
+    align-items: center;
+    flex-direction: row;
+   
+}
+.test1 button{
+    padding:15px 50px ;
+    background-color: #3A88Ec;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+.test2{
+    border: 7px #3A88Ec dashed;
+}
+ .test1 button:hover{
+    background-color: #FF3E81;
+    cursor: pointer;
+ }
+ .recent1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.recent1 h3{
+    font-size: 2rem;
+
+}
+.recent1 h2{
+    font-size: 4rem;
+    color: #303669;
+    font-weight: bold;
+}
+.recent3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 2rem;
+
+}
+.recent2{
+    width: 25%;
+    text-align: center;
+    padding: 4rem 2rem;
+    border: 1px white solid;
+    border-radius: 50px;
+    background-color: rgb(202, 240, 241);
+
+}
+.recent2 h2{
+    font-size: 1.6rem;
+    color: #303669;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 1rem;
+
+}
+.recent2 span{
+    color: #CCCCCC;
+    margin-top: 17px;
+    font-size: 1.4rem;
+  
+
+}
+.recent2 p{
+    font-size: 1.1rem;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.recent2 a{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #3A88Ec;
+    font-weight: bold;
+   
+}
+.recent2 button{
+    padding:15px 50px ;
+    background-color: #3A88Ec;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 15px;
+
+}
+.recent2:hover{
+    cursor: pointer;
+}
+.recent2 button:hover{
+    background-color: #FF3E81;
+    cursor: pointer;
+}
+.recent2 a:hover{
+    color: #FF3E81;
+    opacity: .5s;
+    cursor: pointer;
+}
+.services-section  .btn1{
+    padding:15px 50px ;
+    background-color:#FF3E81;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 15px;
+
+}
+.services-section  .btn1:hover{
+    background-color: #3A88Ec;
+    cursor: pointer;
+}
+.foot-sec{
+    background-color: #303669;
+    height: 70vh;
+    margin-top: 4rem;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    
+   
+
+}
+.foot div{
+    width: 23%;
+    height: 40vh;
+    margin-top: 6rem;
+}
+.foot-sec .pc p{
+    text-align: center;
+    color: #3A88Ec;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+.foot img{
+  
+    width: 60%;
+   margin-bottom: 15px;
+}
+.foot p{
+  color: #fff;
+  font-size: 1.2rem;
+
+}
+.pb{
+    margin-top: 20px;
+}
+
+.foot h2{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+
+ 
+}
+.foot a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.foot a i{
+    padding: 0 10px;
+    margin-top: 30px;
+}
+.foot a i:hover{
+    color: #3A88Ec;
+}
+div ul{
+    margin-top: 10px;
+}
+.foot ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    
+}
+div li i{
+    color: #3A88Ec;
+}
+div li span{
+    margin-left: 15px;
+}
+div li p{
+    margin-left:30px ;
+}
